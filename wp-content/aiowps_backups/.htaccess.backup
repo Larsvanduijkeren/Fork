@@ -1,0 +1,28 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+<If "req('Host') == 'url.nl'">
+AuthUserFile /var/www/html/test.larsvanduijkeren.nl/shared/.auth
+AuthType Basic
+AuthName "Password Protected"
+Require valid-user
+</If>
+
+ErrorDocument 403 "<h1>Forbidden</h1>"
+
+# for the love of god don't allow reading of hidden files.
+<FilesMatch "^\.(.*)$">
+Require all denied
+</FilesMatch>
+
+
+
+
