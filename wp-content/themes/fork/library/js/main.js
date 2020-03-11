@@ -1,5 +1,7 @@
 $(document).ready(function () {
   smoothScroll();
+
+  gtag('event', 'xyz');
 });
 
 var smoothScroll = function () {

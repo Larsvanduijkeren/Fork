@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/library/css/lity.css" />
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/min/main.css" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160267439-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160267439-1');
+    </script>
+
+
   </head>
 
   <body <?php body_class(); ?>>
