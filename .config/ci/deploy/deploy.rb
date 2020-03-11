@@ -13,7 +13,7 @@ set :deploy_user, "deploy"
 # target deployment
 set :deploy_to, "/var/www/html/fork.larsvanduijkeren.nl"
 
-set :theme_folder, "wp-content/themes/neve"
+set :theme_folder, "wp-content/themes/fork"
 set :root_folder, "../.."
 
 # linked shared files
