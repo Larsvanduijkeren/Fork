@@ -20,5 +20,5 @@ var smoothScroll = function () {
 var handleForm = function(e) {
   e.preventDefault();
 
-  gtag('event', 'signed_up');
+  gtag('event', 'sign_up');
 };
