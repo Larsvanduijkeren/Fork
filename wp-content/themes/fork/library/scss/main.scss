@@ -4,4 +4,108 @@
 // LARSVANDUIJKEREN - YARA
 // -----------------------------------------
 
+@import './header.scss';
+@import './hero.scss';
+@import './usps.scss';
+@import './testi.scss';
+@import './partners.scss';
+@import './footer.scss';
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.1;
+  font-weight: 300;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #f5f5f5;
+
+  &.scrolled {
+    overflow: hidden;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  letter-spacing: 1px;
+  line-height: 1.2;
+
+  span {
+    font-weight: 600;
+  }
+}
+
+h2 {
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+p {
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #0f0f0f;
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  position: relative;
+
+  &.small {
+    max-width: 600px;
+  }
+}
+
+.btn,
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 4px;
+  background: white;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: #C86D09;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0px #C86D09;
+  border: none;
+  padding: 0 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  font-size: 12px;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.03);
+  }
+}
+
 

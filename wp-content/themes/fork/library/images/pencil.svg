@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="417px" height="417px" viewBox="0 0 417 417" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>pencil</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="pencil" transform="translate(23.000000, 22.000000)" stroke="#FFFFFF" stroke-width="44">
+            <polygon id="Path" points="288.62 59.28 16.49 332.08 0 372 39.92 355.51 312.72 83.38"></polygon>
+            <path d="M343.07,4.84 L331.28,16.62 L355.38,40.72 L367.17,28.93 C373.611781,22.4834364 373.611781,12.0365636 367.17,5.59 L366.42,4.84 C363.32372,1.74336632 359.124051,0.00366587666 354.745,0.00366587666 C350.365949,0.00366587666 346.16628,1.74336632 343.07,4.84 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

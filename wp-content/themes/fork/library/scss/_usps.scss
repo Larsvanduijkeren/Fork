@@ -1,0 +1,50 @@
+.usps {
+  margin-top: -150px;
+  position: relative;
+  z-index: 1;
+
+  .usp-wrapper {
+    background: #FBBE5C;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px;
+
+    > * {
+      margin: 0 10px;
+      width: calc(33.333% - 20px);
+      max-width: calc(33.333% - 20px);
+      flex-basis: calc(33.333% - 20px);
+      color: white;
+      text-align: center;
+    }
+
+    img {
+      height: 50px;
+      width: auto;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .usps .usp-wrapper {
+    display: block;
+
+    > * {
+      width: 100%;
+      max-width: 100%;
+      flex-basis: 100%;
+      margin: 0 0 20px 0 !important;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .usps .container {
+    padding-bottom: 0;
+  }
+}

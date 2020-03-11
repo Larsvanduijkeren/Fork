@@ -1,6 +1,6 @@
 <footer>
-    <div class='container'>
-      <h2>Experience the future, today</h2>
+    <div class='container small'>
+      <h2>Experience the future today</h2>
       <a href='#hero' class='btn'>Sign up now</a>
     </div>
 </footer>

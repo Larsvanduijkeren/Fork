@@ -1,0 +1,26 @@
+footer {
+  background: #c86d09; /* Old browsers */
+  background: -moz-linear-gradient(top, #c86d09 0%, #a75c09 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #c86d09 0%,#a75c09 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #c86d09 0%,#a75c09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c86d09', endColorstr='#a75c09',GradientType=0 ); /* IE6-9 */
+
+  .container {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
+
+.sub-footer {
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+  }
+}

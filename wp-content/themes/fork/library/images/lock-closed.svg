@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="352px" height="480px" viewBox="0 0 352 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-closed</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lock-closed" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M288,176 L272,176 L272,96 C272,42.980664 229.019336,-2.48689958e-14 176,-2.84217094e-14 C122.980664,-3.19744231e-14 80,42.980664 80,96 L80,176 L64,176 C28.6697684,176.038579 0.0385791814,204.669768 0,240 L0,416 C0.0385791814,451.330232 28.6697684,479.961421 64,480 L288,480 C323.330232,479.961421 351.961421,451.330232 352,416 L352,240 C351.961421,204.669768 323.330232,176.038579 288,176 Z M240,176 L112,176 L112,96 C112,60.653776 140.653776,32 176,32 C211.346224,32 240,60.653776 240,96 L240,176 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

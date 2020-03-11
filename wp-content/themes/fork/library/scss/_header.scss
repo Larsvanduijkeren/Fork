@@ -1,0 +1,22 @@
+header {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  .container {
+    position: relative;
+  }
+
+  a.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 100px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
