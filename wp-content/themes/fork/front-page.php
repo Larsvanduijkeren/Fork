@@ -11,6 +11,8 @@
         <input type='email' placeholder='E-mail address'>
         <button>Update me</button>
       </form>
+
+      <p class='succes'>We'll keep you in the loop!</p>
     </div>
   </div>
 

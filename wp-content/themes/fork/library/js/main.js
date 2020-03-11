@@ -18,7 +18,12 @@ var smoothScroll = function () {
 };
 
 var handleForm = function(e) {
-  e.preventDefault();
+  $('.hero button').click(function (e) {
+    e.preventDefault();
+    gtag('event', 'sign_up');
 
-  gtag('event', 'sign_up');
+    $('body').addClass('form-submitted');
+
+    console.log('submission');
+  });
 };
