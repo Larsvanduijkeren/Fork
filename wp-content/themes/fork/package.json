@@ -1,0 +1,24 @@
+{
+    "name": "marmeren-tafels",
+    "version": "1.0.0",
+    "description": "marmeren-tafels theme",
+    "private": true,
+    "main": "index.js",
+    "devDependencies": {
+        "eslint": "^4.17.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-csso": "^3.0.0",
+        "gulp-eslint": "^4.0.2",
+        "gulp-plumber": "^1.1.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-terser": "^1.1.7",
+        "pump": "^2.0.0"
+    },
+    "scripts": {
+        "dev": "./node_modules/gulp/bin/gulp.js watch",
+        "devw": "node ./node_modules/gulp/bin/gulp.js watch",
+        "build": "./node_modules/gulp/bin/gulp.js build"
+    }
+}

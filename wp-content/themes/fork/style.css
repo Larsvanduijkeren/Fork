@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Fork
+ Theme URI:    
+ Description:  
+ Author:       
+ Author URI:   
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  
+ Tags:         one-column, two-columns, left-sidebar, right-sidebar, custom-menu, featured-images, post-formats, theme-options, translation-ready
+
+*/
+
+/* Write Custom CSS */
+
+.edit-post-visual-editor .editor-block-list__block[data-align="wide"] {
+	max-width: 1300px;
+}
