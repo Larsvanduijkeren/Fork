@@ -17,13 +17,11 @@ var smoothScroll = function () {
   });
 };
 
-var handleForm = function(e) {
+var handleForm = function() {
   $('.hero button').click(function (e) {
     e.preventDefault();
     gtag('event', 'sign_up');
 
     $('body').addClass('form-submitted');
-
-    console.log('submission');
   });
 };
