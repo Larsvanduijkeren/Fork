@@ -1,7 +1,6 @@
 $(document).ready(function () {
   smoothScroll();
-
-  gtag('event', 'xyz');
+  handleForm();
 });
 
 var smoothScroll = function () {
@@ -16,4 +15,10 @@ var smoothScroll = function () {
 
     $('html, body').animate({ scrollTop: scrollTop }, 1000);
   });
+};
+
+var handleForm = function(e) {
+  e.preventDefault();
+
+  gtag('event', 'signed_up');
 };
